@@ -97,11 +97,11 @@ function renderKatalog(items) {
                 <div class="card-content">
 
                     <div class="card-title">
-                        ${item.Titel}
+                        ${item.Bildtitel}
                     </div>
 
-                    <div class="card-author ${authorClass}">
-                        ${authorText}
+                    <div class="card-author">
+                        ${item.Text}
                     </div>
 
                 </div>
